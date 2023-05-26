@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --verde1: #1B8D73;
+
+    --inter: 'Inter', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+header{
+    height: 60px;
+    background-color: var(--verde1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ header nav{
+    font-family: var(--poppins);
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    
+ }
+
+/* .iconesFooter{
+    background-color: aqua;
+} */
