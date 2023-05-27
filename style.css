@@ -12,7 +12,7 @@
 }
 
 header{
-    height: 60px;
+    height: 100px;
     background-color: var(--verde1);
     display: flex;
     justify-content: center;
@@ -24,10 +24,46 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
-    
  }
-
+ header a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+.btnEntrar{
+    padding: 5px 45px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
 /* .iconesFooter{
     background-color: aqua;
 } */
+
+.secao1{
+    background-image: url(./IMG/nós\ cuidamos\ com\ amor\ 1.png);
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoSecao1{
+    width: 200px;
+    height: 200px;
+}
+.conteudoSecao1{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    background-color:aqua ;
+}
+.textoConteudoSecao1{
+    width: 400px;
+    height: 400px;
+}
+.imagemConteudoSecao1{
+    background-image: url(./IMG/img_grupo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 700px;
+}
