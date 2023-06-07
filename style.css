@@ -12,20 +12,28 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+.wrapper{
+    width: 80%;
+    max-width: 1980px;
+    /* margin: 0 auto; */
+
+}
+
 header{
     height: 100px;
+    width: 100%;
     background-color: var(--verde1);
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: blueviolet; */
 }
+
 header nav{
-    width: 1440px;
-    /* margin: 0 auto; */
     padding: auto;
     display: flex;
     justify-content: space-between;
-    /* background-color: blueviolet; */
+    /* background-color: greenyellow; */
  }
  header a{
     color: white;
@@ -54,7 +62,6 @@ header nav{
 .conteudoSecao1{
     display: flex;
     justify-content: space-between;
-    width: 1440px;
 }
 .textoConteudoSecao1{
     width: 45%;
@@ -87,7 +94,6 @@ header nav{
     justify-content: center;
 }
 .valoresSecao2{
-    width: 1440px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -145,12 +151,12 @@ header nav{
 
 footer{
     height: 250px;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     background-color: var(--verde1);
 }
 #containerFooter{
-    width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -255,4 +261,15 @@ footer{
 ::placeholder{
     text-transform: uppercase;
     color: red;
+}
+
+@media screen and (max-width:1400px) {
+    .wrapper{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1250px){
+    .wrapper{
+        width: 90%;
+    }
 }
