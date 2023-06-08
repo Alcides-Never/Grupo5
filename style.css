@@ -40,8 +40,9 @@ header nav{
     text-transform: uppercase;
     font-weight: 900; 
     /* A fonte nao está acatando maiores informações do bolder    */
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--poppins);
+    /* background-color: goldenrod; */
  }
 .btnEntrar{
     padding: 5px 45px;
@@ -50,14 +51,19 @@ header nav{
 }
 .secao1{
     background-image: url(./IMG/nós\ cuidamos\ com\ amor\ 1.png);
+    background-position: cover;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
     height: 870px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: black; */
 }
 .logoSecao1{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 .conteudoSecao1{
     display: flex;
@@ -85,7 +91,11 @@ header nav{
     background-size: cover;
     background-position: center;
     height: 500px;
+    /* height: auto; */
+    /* max-width: auto; */
     width: 700px;
+    /* width: 50%; */
+    /* background-size: 100%; */
 }
 .secao2{
     background-image: url(./IMG/fundo\ branco\ 3\ 2.png);
@@ -267,9 +277,23 @@ footer{
     .wrapper{
         width: 85%;
     }
+    .menuHeader>nav>a{
+        font-size: 18px;
+        /* background-color: blueviolet; */
+    }
+    .btnEntrar{
+        padding: 5px 35px;
+        border: 2px solid white;
+        /* border-radius: 20px; */
+
 }
 @media screen and (max-width: 1250px){
     .wrapper{
         width: 90%;
     }
+    /* .menuHeader>nav>a{
+        font-size: 15px;
+        background-color: blueviolet;
+    } */
+
 }
